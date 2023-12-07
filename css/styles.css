@@ -34,7 +34,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -266,7 +266,19 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.inline-icons {
+  display: flex;
+  gap: 24px;
+}
+.icons-container {
+  width: 264px;
+  background-color: var(--modal-overlay, #f4f4fd);
+}
 
+.icons {
+  display: flex;
+  justify-content: center;
+}
 .first-list {
   display: flex;
   gap: 24px;
