@@ -34,7 +34,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -239,6 +239,7 @@ body {
 
 .list {
   list-style: none; /* ALL LISTS STYLING */
+  padding: 0;
 }
 /* SECTIONS */
 
