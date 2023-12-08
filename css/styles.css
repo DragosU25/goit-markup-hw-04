@@ -103,6 +103,8 @@ body {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: cu valorile 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .nav-bar {
   display: flex;
@@ -137,7 +139,8 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office\ 1.jpg);
+    url(../images/people-office\ 1.jpg);
+  min-width: 1440px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -213,21 +216,20 @@ body {
 .inline-icons {
   display: flex;
   gap: 24px;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .icons-container {
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: var(--CLOUD, #f4f4fd);
-}
-
-.icons {
   width: 64px;
   height: 64px;
   flex-shrink: 0;
 }
+
 .first-list {
   display: flex;
   gap: 24px;
@@ -443,10 +445,6 @@ body {
   border-radius: 4px;
   border: 1px solid var(--subtle-text, #8e8f99);
   fill: #8e8f99;
-}
-
-.clients-list > li:hover {
-  fill: #404bbf;
 }
 
 .clients-title {
