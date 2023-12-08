@@ -348,7 +348,7 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  align-items: center;
+  justify-content: center;
 }
 
 .social-media-link:hover,
@@ -385,6 +385,36 @@ body {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
+}
+
+.social-media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.002em;
+  color: var(--mmodal-background, #ffffff);
+  margin-bottom: 16px;
+  margin-left: 40px;
+}
+
+.footer-social-media-container {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-link-hover:hover,
+.footer-link-hover:focus {
+  background-color: var(--succes, #31d0aa);
+}
+
 /* PORTFOLIO STYLE */
 /* BUTTONS */
 
@@ -446,7 +476,7 @@ body {
 }
 
 .portfolio-content {
-  width: calc(100%-48px) / 3;
+  width: 168px;
 }
 
 .portfolio-title-container {
@@ -458,7 +488,7 @@ body {
 /* CLIENTS SECTION */
 
 .customers-section {
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 
 .customers-container {
@@ -476,7 +506,6 @@ body {
   font-size: 36px;
   line-height: 1.11em;
   color: #2e2f42;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -496,12 +525,9 @@ body {
   color: var(--subtle-text, #8e8f99);
 }
 
-.customer-link:hover {
-  border-color: var(--pressed-state, #404bbf);
-  color: var(--pressed-state, #404bbf);
-}
-
+.customer-link:hover,
 .customer-link:focus {
+  border-color: var(--pressed-state, #404bbf);
   color: var(--pressed-state, #404bbf);
 }
 
