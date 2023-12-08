@@ -401,7 +401,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
-  letter-spacing: 0.002em;
+  letter-spacing: 0.02em;
   color: var(--mmodal-background, #ffffff);
   margin-bottom: 16px;
   margin-left: 40px;
@@ -479,6 +479,9 @@ body {
   border-top: none;
 }
 
+.portfolio-links {
+  display: block;
+}
 .portfolio-links:hover,
 .portfolio-links:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
