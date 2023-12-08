@@ -224,12 +224,6 @@ body {
   margin-bottom: 8px;
 }
 
-.icons-container {
-  width: 64px;
-  height: 64px;
-  flex-shrink: 0;
-}
-
 .first-list {
   display: flex;
   gap: 24px;
