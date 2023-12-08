@@ -418,7 +418,6 @@ body {
 
 /* PORTFOLIO STYLE */
 /* BUTTONS */
-
 .button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -433,16 +432,13 @@ body {
   border-radius: 4px;
 }
 
-.button:hover {
-  border: 1px solid transparent;
-  background-color: #404bbf;
-  color: #ffffff;
-}
-
+.button:hover,
 .button:focus {
   border: 1px solid transparent;
-  color: #ffffff;
   background-color: #404bbf;
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-title {
@@ -476,14 +472,16 @@ body {
   row-gap: 48px;
 }
 
-.portfolio-content {
-  width: 168px;
-}
-
 .portfolio-title-container {
   padding: 32px 16px;
   border: 1px solid var(--accent);
   border-top: none;
+}
+
+.portfolio-links:hover,
+.portfolio-links:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* CLIENTS SECTION */
