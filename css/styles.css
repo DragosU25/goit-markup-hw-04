@@ -20,6 +20,7 @@
   --fw-boldt: 700;
   --fw-normalt: 400;
   --fw-mediumt: 500;
+  --grey: rgba(46, 47, 66, 0.7);
 }
 /* GENERAL STYLING */
 *,
@@ -138,8 +139,8 @@ body {
 
 .primary-section {
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
+      var(--grey, rgba(46, 47, 66, 0.7)),
+      var(--grey, rgba(46, 47, 66, 0.7))
     ),
     url(../images/people-office\ 1.jpg);
   max-width: 1440px;
