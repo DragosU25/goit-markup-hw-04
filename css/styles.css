@@ -540,3 +540,8 @@ body {
 .clients-svg {
   fill: currentColor;
 }
+
+.clients-svg:hover,
+.clients-svg:focus {
+  color: var(--pressed-state, #404bbf);
+}
