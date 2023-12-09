@@ -138,7 +138,7 @@ body {
 /* HERO SECTION */
 
 .primary-section {
-  background-image: linear-gradient(
+  background: linear-gradient(
       var(--grey, rgba(46, 47, 66, 0.7)),
       var(--grey, rgba(46, 47, 66, 0.7))
     ),
