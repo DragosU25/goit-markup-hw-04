@@ -105,6 +105,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .nav-bar {
   display: flex;
@@ -368,6 +370,8 @@ body {
 
 .footer-content {
   background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer-text {
@@ -403,7 +407,7 @@ body {
   line-height: 1.5em;
   letter-spacing: 0.02em;
   color: var(--mmodal-background, #ffffff);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-social-media-container {
