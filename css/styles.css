@@ -313,6 +313,8 @@ body {
 
 .team-section {
   background-color: #f4f4fd;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .team-member {
   background-color: #ffffff;
