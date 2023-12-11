@@ -142,7 +142,7 @@ body {
       var(--grey, rgba(46, 47, 66, 0.7)),
       var(--grey, rgba(46, 47, 66, 0.7))
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/backgroud-image.jpg);
   max-width: 1440px;
   background-size: cover;
   background-repeat: no-repeat;
